@@ -12,12 +12,23 @@
 10) **Line 12** will print 3, which is the value of `length`. Although it is a `const` variable, `length` is defined within the same block as **Line 12**, which makes it legal. 
 11) The function returns `[50, 100, 150]`. This is because the final discounted prices were pushed onto the `discountedPrices` array.
 
-12)
+12) **Data Types** 
 A) `student.name`
 B) `student['Grad Year']`
 C) `student.greeting()`
 D) `student.['Favorite Teacher'].name`
 E) `student.courseLoad[0]`
 
+13) **Arithmetic**
+A) '3' + 2 = '32'
+B) '3' - 2 = 
+C)
+D)
+E)
+F)
+G)
+H)
+
+15) **Comparison**
 
 
