@@ -9,7 +9,8 @@
 4) **Line 13** will return an `Uncaught ReferenceError: result is not defined`. This is because the `let result` variable is not in the same block as **Line 13**. Since this line is not within the same scope as `result`, it marks it as non-existant, and thus returns an error.
 
 ### const declaration
-5)   
+5) The code doesn't print anything and instead we get an `Uncaught TypeError TypeError: Assignment to constant variable` error. This occurs because we are trying to reassign the `result` variable to `num1 + num2`, when in reality, since we declared it as a `const` variable, you cannot change its value after declaration. In other words, `const result` should always remain 0, since that is how we declared it.
+6) The code does not reach **Line 13** because of the `Uncaught TypeError TypeError: Assignment to constant variable` error. Thus, nothing is printed. 
 
 
 
