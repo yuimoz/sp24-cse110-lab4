@@ -41,7 +41,7 @@ F) true === Boolean(2) = `true`
 
 17)b
 
-19)
+19) The output of the above code is `1, 4, 3, 2`. Since 4 and 4 are not limited to be printed out within a block of code, they are immediately printed out in that order. Then, we get 3 and 2 because the `setTimeout` function first execute with the lowest waiting time (0), which corresponds to 3. Finally, the next `setTimeout` function executes because it has the longest waiting time (1000), which corresponds to 2. Thus, the outcome is `1, 4, 3, 2`.  
 
 
 
