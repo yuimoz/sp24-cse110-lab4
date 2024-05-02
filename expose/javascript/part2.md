@@ -13,29 +13,29 @@
 11) The function returns `[50, 100, 150]`. This is because the final discounted prices were pushed onto the `discountedPrices` array.
 
 12) **Data Types** 
-A) `student.name`
-B) `student['Grad Year']`
-C) `student.greeting()`
-D) `student.['Favorite Teacher'].name`
-E) `student.courseLoad[0]`
+A) `student.name`  
+B) `student['Grad Year']`  
+C) `student.greeting()`  
+D) `student.['Favorite Teacher'].name`  
+E) `student.courseLoad[0]`  
 
 13) **Arithmetic**
-A) '3' + 2 = `'32'`
-B) '3' - 2 = `1`
-C) 3 + null = `3`
-D) '3' + null = `3null`
-E) true + 3 = `4`
-F) false + null = `0` 
-G) '3' + undefined = `'3undefined'` 
-H) '3' - undefined = `NaN`
+A) '3' + 2 = `'32'`  
+B) '3' - 2 = `1`  
+C) 3 + null = `3`  
+D) '3' + null = `3null`  
+E) true + 3 = `4`  
+F) false + null = `0`   
+G) '3' + undefined = `'3undefined'`   
+H) '3' - undefined = `NaN`  
 
 14) **Comparison**
-A) '2' > 1 = `true`
-B) '2' < '12' = `false`
-C) 2 == '2' = `true`
-D) 2 === '2' = `false`
-E) true == 2 = `false`
-F) true === Boolean(2) = `true`
+A) '2' > 1 = `true`  
+B) '2' < '12' = `false`  
+C) 2 == '2' = `true`  
+D) 2 === '2' = `false`  
+E) true == 2 = `false`  
+F) true === Boolean(2) = `true`  
 
 15) a
 
