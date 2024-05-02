@@ -37,9 +37,9 @@ D) 2 === '2' = `false`
 E) true == 2 = `false`  
 F) true === Boolean(2) = `true`  
 
-15) a
+15) The difference between `==` and `===` lies in how they compare values. The `==` operator converts variables to be of the same type before actually comparing them (ex. `'3' == 3 = true` since the string gets converted to an integer). As for the `===` operator keeps both data types as is and does not make any changes to them when comparing them (ex. `'3' === 3 = false` since not the same data type, but `3 === 3` returns true). 
 
-17)b
+17) The result is `[2,4,6]`. This occurs because the `modifyArray` function applies the `callback` function to each element of the array and stores them in a new empty array. Then, the `doSomething` function multiplies an element by 2. Putting them together, `modifyArray([1,2,3], doSomething)` will return the multiplied by 2 element of the given array, which is `[2,4,6]`.
 
 19) The output of the above code is `1, 4, 3, 2`. Since 4 and 4 are not limited to be printed out within a block of code, they are immediately printed out in that order. Then, we get 3 and 2 because the `setTimeout` function first execute with the lowest waiting time (0), which corresponds to 3. Finally, the next `setTimeout` function executes because it has the longest waiting time (1000), which corresponds to 2. Thus, the outcome is `1, 4, 3, 2`.  
 
