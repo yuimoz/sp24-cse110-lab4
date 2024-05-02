@@ -21,14 +21,23 @@ E) `student.courseLoad[0]`
 
 13) **Arithmetic**
 A) '3' + 2 = '32'
-B) '3' - 2 = 
-C)
-D)
-E)
-F)
-G)
-H)
+B) '3' - 2 =
+C) 3 + null =
+D) '3' + null =
+E) true + 3 =
+F) false + null = 
+G) '3' + undefined = 
+H) '3' - undefined = 
 
-15) **Comparison**
+14) **Comparison**
+A) '2' > 1 =
+B) '2' < '12' =
+C) 2 == '2' =
+D) 2 === '2' =
+E) true == 2 =
+F) true === Boolean(2) =
+
+15) 
+
 
 
